@@ -1,3 +1,5 @@
+# 解决了基本指令执行后，该机后续还需涉及DNS等修复，操作量庞大，遂当做故障机练习用。
+
 #问题描述
 
 ## 2025/11/27 1:00左右
@@ -27,6 +29,53 @@ VMWare环境下CentOS Stream 10中安装[CentOS服务网站](https://www.server-
 
 
 #修复代码分析
+
+```
+command -v dnf
+
+dnf install -y coreutils systemd
+
+df -h
+systemctl get-default
+
+df -h
+systemctl get-default
+
+echo $PATH
+/root/.local/bin:/root/bin:PATH:/home/rendezvous/uu/download/pycharm-2025.2.4/bin
+
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin %% 初始化环境变量
+hash -r
+
+systemctl --version %% 更改系统视图
+
+command -v dnf
+dnf reinstall -y coreutils bash systemd systemd-udev util-linux passwd sudo
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

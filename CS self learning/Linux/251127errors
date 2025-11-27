@@ -1,0 +1,13 @@
+#问题描述
+
+## 2025/11/27 1:00左右
+
+VMWare环境下CentOS Stream 10中安装 https://www.server-world.info/en/note?os=CentOS_Stream_10&p=download 网站指示的Python 13 ,PyCharm 25.2.0.1 ,firewall,network settings。
+
+安装PyCharm时，手动设置了PATH路径：/home/rendezous/vv/download/PyCharm25.2.0.1/bin   
+
+但是运行PyCharm时，界面出现乱码，遂欲卸载。但没有直接卸载方式，只能删除目录文件（文件本身），但PATH路径依然存在。
+
+## 25/11/27 18:30左右
+
+打开CentOS时，输入密码无法进入。

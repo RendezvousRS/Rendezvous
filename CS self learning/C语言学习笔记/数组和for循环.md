@@ -42,3 +42,4 @@ for(int a=0;a<=1;a++)
 printf("%d\n",rendezvouss[[1][2]);//输出第二行第三列的内容
 printf("%d\n",rendezvousss[1][2][1]);//输出(2,3,2)位置的内容
 ```
+

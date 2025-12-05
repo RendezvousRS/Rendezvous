@@ -44,7 +44,7 @@ int main(void){
         scanf("%d %d",&h,&i);
         int divi;
         divi = h / i;
-        printf("%d减%d等于%d",h,i,divi);
+        printf("%d除以%d等于%d",h,i,divi);//输出的整数，有至少两种解决方案。1，把余数表示出来；2，直接输出一个一定位数的小数。
     }
     else{
         return 0;
